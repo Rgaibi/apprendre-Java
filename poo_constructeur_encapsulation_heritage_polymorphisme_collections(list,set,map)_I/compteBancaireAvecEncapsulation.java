@@ -2,7 +2,7 @@ public class compteBancaireAvecEncapsulation {
     private double solde;
     public void deposer(double montant) {
         if(montant > 0){
-            solde+ = montant;
+            solde += montant;
         }
     }
     public double getsolde(){
