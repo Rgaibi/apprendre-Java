@@ -1,6 +1,6 @@
 public class compteBancaireAvecEncapsulation {
     private double solde;
-    public void deposer(double montant) {
+    public void setsolde(double montant) {
         if(montant > 0){
             solde += montant;
         }
@@ -10,7 +10,7 @@ public class compteBancaireAvecEncapsulation {
     }
     public static void main(String[] args) {
         compteBancaireAvecEncapsulation c = new compteBancaireAvecEncapsulation();
-        c.deposer(100);
+        c.setsolde(100);
         System.out.println("solde : "+c.getsolde());
     }
 }
