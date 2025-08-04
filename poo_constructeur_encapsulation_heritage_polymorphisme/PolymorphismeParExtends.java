@@ -13,7 +13,7 @@ class chien extends animal{
         System.out.println("waouf");
     }
 }
-public class testPolymorphisme {
+public class PolymorphismeParExtends {
     public static void main(String[] args) {
         animal[] animaux = {new chat(), new chien()};
         for(animal a : animaux ){
