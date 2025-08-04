@@ -1,14 +1,14 @@
-class animal {
-    public void parler() {
+class Animal {
+    public void Parler() {
         System.out.println("l'animal fait un bruit");
     }
 }
-public class chienAvecHeritage extends animal {
-    public void aboyer() {
+public class ChienAvecHeritage extends animal {
+    public void Aboyer() {
         System.out.println("waouf");
     }
     public static void main(String[] args) {
-        chienAvecHeritage c = new chienAvecHeritage();
+        ChienAvecHeritage c = new ChienAvecHeritage();
         c.parler();
         c.aboyer();
     }

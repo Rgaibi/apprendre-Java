@@ -22,4 +22,3 @@ public class PolymorphismeParHeritage {
         
     }
 }
-Heritage
