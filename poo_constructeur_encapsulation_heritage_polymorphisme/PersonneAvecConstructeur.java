@@ -1,7 +1,7 @@
-public class personneAvecConstructeur {
+public class PersonneAvecConstructeur {
     String nom;
     int age;
-    public personneAvecConstructeur(String n, int a) {
+    public PersonneAvecConstructeur(String n, int a) {
         nom = n;
         age = a;
     }
@@ -9,7 +9,7 @@ public class personneAvecConstructeur {
         System.out.println("je m'appelle " +nom+ "et j'ai " +age+ "ans");
     }
     public static void main(String[] args){
-        personneAvecConstructeur p = new personneAvecConstructeur("karim", 33);
+        PersonneAvecConstructeur p = new PersonneAvecConstructeur("karim", 33);
         p.serepresenter();
     }
 }
