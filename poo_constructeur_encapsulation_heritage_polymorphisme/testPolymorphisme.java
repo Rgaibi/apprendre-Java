@@ -15,7 +15,7 @@ class chien extends animal{
 }
 public class testPolymorphisme {
     public static void main(String[] args) {
-        animal[] animaux = {new chat(), new chien()}
+        animal[] animaux = {new chat(), new chien()};
         for(animal a : animaux ){
             a.parler();
         }
