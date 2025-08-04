@@ -1,4 +1,4 @@
-public class compteBancaireAvecEncapsulation {
+public class CompteBancaireAvecEncapsulation {
     private double solde;
     public void setsolde(double montant) {
         if(montant > 0){
@@ -9,7 +9,7 @@ public class compteBancaireAvecEncapsulation {
         return solde;
     }
     public static void main(String[] args) {
-        compteBancaireAvecEncapsulation c = new compteBancaireAvecEncapsulation();
+        CompteBancaireAvecEncapsulation c = new CompteBancaireAvecEncapsulation();
         c.setsolde(100);
         System.out.println("solde : "+c.getsolde());
     }

@@ -1,22 +1,22 @@
-class animal {
+class Animal2 {
     public void parler() {
         System.out.println();
     }
 }
-class chat extends animal {
+class Chat2 extends Animal2 {
     public void parler() {
         System.out.println("miaou");
     }
 }
-class chien extends animal{
+class Chien2 extends Animal2{
     public void parler() {
         System.out.println("waouf");
     }
 }
 public class PolymorphismeParHeritage {
     public static void main(String[] args) {
-        animal[] animaux = {new chat(), new chien()};
-        for(animal a : animaux ){
+        Animal2[] animaux = {new Chat2(), new Chien2()};
+        for(Animal2 a : animaux ){
             a.parler();
         }
         
