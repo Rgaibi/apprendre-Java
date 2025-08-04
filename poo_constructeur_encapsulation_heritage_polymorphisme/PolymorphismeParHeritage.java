@@ -13,7 +13,7 @@ class chien extends animal{
         System.out.println("waouf");
     }
 }
-public class PolymorphismeParExtends {
+public class PolymorphismeParHeritage {
     public static void main(String[] args) {
         animal[] animaux = {new chat(), new chien()};
         for(animal a : animaux ){
@@ -22,3 +22,4 @@ public class PolymorphismeParExtends {
         
     }
 }
+Heritage
