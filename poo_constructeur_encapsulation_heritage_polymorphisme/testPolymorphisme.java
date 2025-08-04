@@ -8,9 +8,17 @@ class chat extends animal {
         System.out.println("miaou");
     }
 }
+class chien extends animal{
+    public void parler() {
+        System.out.println("waouf");
+    }
+}
 public class testPolymorphisme {
     public static void main(String[] args) {
-        animal a = new chat();
-        a.parler();
+        animal[] animaux = {new chat(), new chien()}
+        for(animal a : animaux ){
+            a.parler();
+        }
+        
     }
 }
