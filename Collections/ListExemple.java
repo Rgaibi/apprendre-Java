@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.List;
+import java.util.List; // liste ordonée avec doublons
 public class ListExemple {
     public static void main(String[] args) {
        List<String> noms = new ArrayList<>();
